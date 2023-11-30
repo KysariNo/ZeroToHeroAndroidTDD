@@ -26,12 +26,12 @@ import org.junit.runner.RunWith
  * @see ru.easycode.zerotoheroandroidtdd.CountTest
  */
 @RunWith(AndroidJUnit4::class)
-class Task012Test {
+class  Task012Test {
 
     @get:Rule
     var activityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
 
-    @Test
+   @Test
     fun test_increment() {
         onView(
             allOf(

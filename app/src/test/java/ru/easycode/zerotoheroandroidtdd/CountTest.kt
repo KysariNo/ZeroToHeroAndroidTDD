@@ -67,9 +67,9 @@ class CountTest {
     @Test
     fun test_negative_max_message() {
         try {
-            Count.Base(step = 5, max = -2)
+            Count.Base(step = 7, max = -2)
         } catch (e: Exception) {
-            assertEquals("max should be positive, but was -2", e.message)
+            assertEquals("max should be positive, but was -2 ", e.message)
         }
     }
 
