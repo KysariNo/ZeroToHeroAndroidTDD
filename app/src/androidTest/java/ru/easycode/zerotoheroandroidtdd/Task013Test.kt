@@ -33,7 +33,8 @@ class Task013Test {
     @get:Rule
     var activityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
 
-    @Test
+   @Test
+
     fun test_increment() {
         onView(
             allOf(
